@@ -37,6 +37,8 @@
     "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {
+    "events": "^1.0.2",
+    "object-assign": "^3.0.0",
     "react": "^0.13.0"
   }
 }
