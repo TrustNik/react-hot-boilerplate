@@ -6,8 +6,12 @@ var Store = assign({}, EventEmitter.prototype, {
         counter : 0
     },
 
-    getStateFromStore() {
+    getStateFromStoreByRefernce() {
         return this.state;
+    },
+    
+    getStateFromStore() {
+        return {counter : this.state.counter};
     },
     
     change() {
